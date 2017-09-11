@@ -1,0 +1,24 @@
+{
+  "name": "webdriverlog",
+  "version": "1.0.0",
+  "description": "Retrieve browser logs in WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XDex/webdriverlog.git"
+  },
+  "keywords": [
+    "wdio",
+    "logs",
+    "webdriverio"
+  ],
+  "author": "Andrei Anischevici",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/XDex/webdriverlog/issues"
+  },
+  "homepage": "https://github.com/XDex/webdriverlog#readme"
+}
