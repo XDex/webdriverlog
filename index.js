@@ -13,7 +13,9 @@ function plugin(wdInstance) {
             if (!window[NAMESPACE]) {
                 return [];
             }
-            return window[NAMESPACE].logs;
+            var logs = window[NAMESPACE].logs;
+            window[NAMESPACE].logs = [];
+            return logs;
         }).then(result => result.value);
     }
 }

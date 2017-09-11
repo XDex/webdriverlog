@@ -1,6 +1,6 @@
 {
   "name": "webdriverlog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieve browser logs in WebdriverIO",
   "main": "index.js",
   "scripts": {
