@@ -8,7 +8,7 @@ function plugin(wdInstance) {
     wdInstance.addCommand('getLogs', getLogs.bind(wdInstance));
 
     function getLogs() {
-        return wdInstance.execute(() => {
+        return wdInstance.execute(function () {
             var NAMESPACE = '__webdriverlog';
             if (!window[NAMESPACE]) {
                 return [];
